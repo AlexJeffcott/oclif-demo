@@ -45,7 +45,7 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "test-npm-cli",
+    "bin": "oclif-demo",
     "plugins": [
       "@oclif/plugin-help"
     ]
@@ -59,7 +59,8 @@
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md",
+    "publish": "npm publish --access public"
   },
   "types": "lib/index.d.ts"
 }

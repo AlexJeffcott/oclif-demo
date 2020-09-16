@@ -3,13 +3,11 @@ oclif-demo
 
 example multi-command CLI built with typescript
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@oclif/example-multi-ts)
-[![CircleCI](https://circleci.com/gh/oclif/example-multi-ts/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/example-multi-ts/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-ts?branch=master&svg=true)](https://ci.appveyor.com/project/oclif/example-multi-ts/branch/master)
-[![Codecov](https://codecov.io/gh/oclif/example-multi-ts/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-ts)
-[![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@oclif/example-multi-ts)
-[![License](https://img.shields.io/npm/l/@oclif/example-multi-ts.svg)](https://github.com/oclif/example-multi-ts/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@alexjeffcott/oclif-demo)
+[![CircleCI](https://circleci.com/gh/alexjeffcott/oclif-demo/tree/master.svg?style=shield)](https://circleci.com/gh/alexjeffcott/oclif-demo/tree/master)
+[![Codecov](https://codecov.io/gh/alexjeffcott/oclif-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/alexjeffcott/oclif-demo)
+[![Downloads/week](https://img.shields.io/npm/dw/@alexjeffcott/oclif-demo.svg)](https://npmjs.org/package/@alexjeffcott/oclif-demo)
+[![License](https://img.shields.io/npm/l/@alexjeffcott/oclif-demo.svg)](https://github.com/alexjeffcott/oclif-demo/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -18,30 +16,30 @@ example multi-command CLI built with typescript
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g test-npm-cli
-$ test-npm-cli COMMAND
+$ npm install -g @alexjeffcott/oclif-demo
+$ oclif-demo COMMAND
 running command...
-$ test-npm-cli (-v|--version|version)
-test-npm-cli/1.0.0 darwin-x64 node-v12.18.3
-$ test-npm-cli --help [COMMAND]
+$ oclif-demo (-v|--version|version)
+@alexjeffcott/oclif-demo/1.0.0 darwin-x64 node-v12.18.3
+$ oclif-demo --help [COMMAND]
 USAGE
-  $ test-npm-cli COMMAND
+  $ oclif-demo COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`test-npm-cli goodbye [FILE]`](#test-npm-cli-goodbye-file)
-* [`test-npm-cli hello [FILE]`](#test-npm-cli-hello-file)
-* [`test-npm-cli help [COMMAND]`](#test-npm-cli-help-command)
+* [`oclif-demo goodbye [FILE]`](#oclif-demo-goodbye-file)
+* [`oclif-demo hello [FILE]`](#oclif-demo-hello-file)
+* [`oclif-demo help [COMMAND]`](#oclif-demo-help-command)
 
-## `test-npm-cli goodbye [FILE]`
+## `oclif-demo goodbye [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ test-npm-cli goodbye [FILE]
+  $ oclif-demo goodbye [FILE]
 
 OPTIONS
   -f, --force
@@ -49,15 +47,15 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/goodbye.ts](https://github.com/alexjeffcott/test-npm-cli/blob/v1.0.0/src/commands/goodbye.ts)_
+_See code: [src/commands/goodbye.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.0/src/commands/goodbye.ts)_
 
-## `test-npm-cli hello [FILE]`
+## `oclif-demo hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ test-npm-cli hello [FILE]
+  $ oclif-demo hello [FILE]
 
 OPTIONS
   -f, --force
@@ -69,15 +67,15 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/alexjeffcott/test-npm-cli/blob/v1.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.0/src/commands/hello.ts)_
 
-## `test-npm-cli help [COMMAND]`
+## `oclif-demo help [COMMAND]`
 
-display help for test-npm-cli
+display help for oclif-demo
 
 ```
 USAGE
-  $ test-npm-cli help [COMMAND]
+  $ oclif-demo help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
