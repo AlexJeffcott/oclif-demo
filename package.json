@@ -55,6 +55,7 @@
     "url": "git+https://github.com/AlexJeffcott/oclif-demo.git"
   },
   "scripts": {
+    "bump": "npm version patch",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "npm run lint",
