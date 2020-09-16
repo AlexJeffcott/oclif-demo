@@ -42,7 +42,7 @@ jobs:
 
 workflows:
   version: 2
-  "test-npm-cli":
+  "oclif-demo":
     jobs:
       - node-12
       - cache:
