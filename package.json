@@ -1,7 +1,7 @@
 {
   "name": "@alexjeffcott/oclif-demo",
   "description": "oclif-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alex Jeffcott",
   "bin": {
     "test-npm-cli": "./bin/run"
