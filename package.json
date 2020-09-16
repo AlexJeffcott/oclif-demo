@@ -55,11 +55,13 @@
     "url": "git+https://github.com/AlexJeffcott/oclif-demo.git"
   },
   "scripts": {
+    "lint": "eslint . --ext .ts --config .eslintrc",
     "postpack": "rm -f oclif.manifest.json",
-    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "posttest": "npm run lint",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md",
+    "postversion": "oclif-dev readme && git add README.md && git add . && git commit --m \"bumped version\" && git push",
+    "preversion": "npm run lint && npm test",
     "publish": "npm publish --access public"
   },
   "types": "lib/index.d.ts"
