@@ -20,7 +20,7 @@ $ npm install -g @alexjeffcott/oclif-demo
 $ oclif-demo COMMAND
 running command...
 $ oclif-demo (-v|--version|version)
-@alexjeffcott/oclif-demo/1.0.0 darwin-x64 node-v12.18.3
+@alexjeffcott/oclif-demo/1.0.1 darwin-x64 node-v12.18.3
 $ oclif-demo --help [COMMAND]
 USAGE
   $ oclif-demo COMMAND
@@ -47,7 +47,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/goodbye.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.0/src/commands/goodbye.ts)_
+_See code: [src/commands/goodbye.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.1/src/commands/goodbye.ts)_
 
 ## `oclif-demo hello [FILE]`
 
@@ -67,7 +67,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/AlexJeffcott/oclif-demo/blob/v1.0.1/src/commands/hello.ts)_
 
 ## `oclif-demo help [COMMAND]`
 
