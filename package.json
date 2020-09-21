@@ -1,12 +1,12 @@
 {
-  "name": "@alexjeffcott/oclif-demo",
-  "description": "oclif-demo",
-  "version": "1.0.1",
+  "name": "@alexjeffcott/typescript-cli-template",
+  "description": "typescript-cli-template",
+  "version": "1.0.0",
   "author": "Alex Jeffcott",
   "bin": {
     "test-npm-cli": "./bin/run"
   },
-  "bugs": "https://github.com/alexjeffcott/oclif-demo/issues",
+  "bugs": "https://github.com/alexjeffcott/typescript-cli-template/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -39,19 +39,19 @@
     "/lib",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/alexjeffcott/oclif-demo#README.md",
+  "homepage": "https://github.com/alexjeffcott/typescript-cli-template#README.md",
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "oclifdem",
+    "bin": "typescriptclitemplate",
     "plugins": [
       "@oclif/plugin-help"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexJeffcott/oclif-demo.git"
+    "url": "git+https://github.com/AlexJeffcott/typescript-cli-template.git"
   },
   "scripts": {
     "bump": "npm version patch",
