@@ -37,7 +37,6 @@
   "files": [
     "/bin",
     "/lib",
-    "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/alexjeffcott/oclif-demo#README.md",
@@ -45,7 +44,7 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "oclif-demo",
+    "bin": "oclifdem",
     "plugins": [
       "@oclif/plugin-help"
     ]

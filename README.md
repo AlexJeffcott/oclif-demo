@@ -9,6 +9,33 @@ example multi-command CLI built with typescript
 [![Downloads/week](https://img.shields.io/npm/dw/@alexjeffcott/oclif-demo.svg)](https://npmjs.org/package/@alexjeffcott/oclif-demo)
 [![License](https://img.shields.io/npm/l/@alexjeffcott/oclif-demo.svg)](https://github.com/alexjeffcott/oclif-demo/blob/master/package.json)
 
+Give it a name
+Here this can be found as `oclif-demo`
+
+Define a command
+Here this can be found as `oclifdem`
+
+Set the version
+Ensure the version in package.json is `1.0.0` as a starting point. 
+Subsequent versions should be bumped using the appropriate npm scripts.
+
+Make it a repo
+Here this can be found as `AlexJeffcott/oclif-demo`
+
+Set up codecov.io
+This is very easy to set up - just create an account, or login, link the repo and copy the token.
+
+Put it in CI/CD
+This project uses circleci. This is very easy to set up - just create an account, or login, link the repo and tell it to use the config that already exists.
+Go to `project settings/Environment Variables` and add `CODECOV_TOKEN` with the token gleaned from codecov.io above.
+
+Make it an npm package
+Here this can be found as `@alexjeffcott/oclif-demo`
+NB this must be unique in npm registry, otherwise you will get confusing/misleading error messages.
+
+Sign in to npm
+You must have an npm account, and the user must be able to create/publish packages.
+
 <!-- toc -->
 * [Usage](#usage)
 * [Commands](#commands)
