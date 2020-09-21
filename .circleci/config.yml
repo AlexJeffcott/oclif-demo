@@ -22,8 +22,7 @@ jobs:
       - run:
           name: Submitting code coverage to codecov
           command: |
-            ls
-            curl -s https://codecov.io/bash | bash
+            curl -s https://codecov.io/bash -s coverage -X coveragepy | bash
   node-12:
     <<: *test
     docker:
