@@ -4,36 +4,42 @@ oclif-demo
 example multi-command CLI built with typescript
 
 [![Version](https://img.shields.io/npm/v/@oclif/example-multi-ts.svg)](https://npmjs.org/package/@alexjeffcott/oclif-demo)
-[![CircleCI](https://circleci.com/gh/alexjeffcott/oclif-demo/tree/master.svg?style=shield)](https://circleci.com/gh/alexjeffcott/oclif-demo/tree/master)
+[![CircleCI](https://circleci.com/gh/AlexJeffcott/oclif-demo/tree/master.svg?style=shield)](https://circleci.com/gh/AlexJeffcott/oclif-demo/tree/master)
 [![Codecov](https://codecov.io/gh/alexjeffcott/oclif-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/alexjeffcott/oclif-demo)
 [![Downloads/week](https://img.shields.io/npm/dw/@alexjeffcott/oclif-demo.svg)](https://npmjs.org/package/@alexjeffcott/oclif-demo)
 [![License](https://img.shields.io/npm/l/@alexjeffcott/oclif-demo.svg)](https://github.com/alexjeffcott/oclif-demo/blob/master/package.json)
 
-Give it a name
+## Give it a name
 Here this can be found as `oclif-demo`
 
-Define a command
+## Define a command
 Here this can be found as `oclifdem`
 
-Set the version
+## Set the version
 Ensure the version in package.json is `1.0.0` as a starting point. 
 Subsequent versions should be bumped using the appropriate npm scripts.
 
-Make it a repo
+## Make it a github repo
+See [here](https://github.com/AlexJeffcott/oclif-demo).
+
 Here this can be found as `AlexJeffcott/oclif-demo`
 
-Set up codecov.io
+## Set up codecov.io
+See [here](https://codecov.io/gh/AlexJeffcott/oclif-demo).
+
 This is very easy to set up - just create an account, or login, link the repo and copy the token.
 
-Put it in CI/CD
+## Put it in CI/CD
+See [here](https://app.circleci.com/pipelines/github/AlexJeffcott/oclif-demo).
+
 This project uses circleci. This is very easy to set up - just create an account, or login, link the repo and tell it to use the config that already exists.
 Go to `project settings/Environment Variables` and add `CODECOV_TOKEN` with the token gleaned from codecov.io above.
 
-Make it an npm package
+## Make it an npm package
 Here this can be found as `@alexjeffcott/oclif-demo`
 NB this must be unique in npm registry, otherwise you will get confusing/misleading error messages.
 
-Sign in to npm
+#### Sign in to npm and publish
 You must have an npm account, and the user must be able to create/publish packages.
 
 <!-- toc -->
